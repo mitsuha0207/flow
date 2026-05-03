@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Election Assistant | Democracy Simplified</title>
+    <meta name="description" content="Learn about the Indian election process, voter registration, and detailed technical information in an interactive way.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script> <!-- Placeholder for icons -->
+    <style>
+        /* Small inline style for icons since we don't have a specific kit */
+        .icon { font-size: 2rem; margin-bottom: 1rem; display: block; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="C:/Users/Dell/.gemini/antigravity/brain/9e3c1dba-5f0b-4276-8600-f13d5c31aa3e/election_hero_pookie_1777626277273.png" alt="Election Hero" style="width: 150px; border-radius: 20px; margin-bottom: 1rem; box-shadow: var(--shadow);">
+            <h1 class="floating">Indian Election Assistant ✨</h1>
+            <p class="subtitle">A Comprehensive Guide to Indian Democracy & Voting</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- Election Steps Timeline -->
+        <section id="process">
+            <h2 class="section-title">The Election Journey 🗳️</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="content">
+                        <h2>1. Notification</h2>
+                        <p>The President or Governor issues the notification, kicking off the election season!</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content">
+                        <h2>2. Nominations</h2>
+                        <p>Candidates file their nomination papers and pay a small deposit. Time to step up!</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="content">
+                        <h2>3. Scrutiny</h2>
+                        <p>Election officers check if nominations are valid. No rule-breakers allowed! ❌</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content">
+                        <h2>4. Campaigning</h2>
+                        <p>Parties share their manifestos. This lasts for 2 weeks until 48 hours before polling.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="content">
+                        <h2>5. Polling Day</h2>
+                        <p>The big day! Citizens head to booths to cast their votes using EVMs. 👆✨</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content">
+                        <h2>6. Results</h2>
+                        <p>Votes are counted, and the winner is declared. Democracy in action! 🏆</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flashcards Section -->
+        <section id="flashcards">
+            <h2 class="section-title">Democracy Flashcards 🎴</h2>
+            <div class="flashcards-container" id="flashcards-grid">
+                <!-- Will be populated by JS -->
+            </div>
+        </section>
+
+        <!-- Technical Details Section -->
+        <section id="details">
+            <h2 class="section-title">Deep Dive into the System 🏛️</h2>
+            <div class="registration-grid">
+                <div class="step-card">
+                    <h3>Lok Sabha</h3>
+                    <p>The House of the People. Members are directly elected by the public every 5 years. Total seats: 543.</p>
+                </div>
+                <div class="step-card">
+                    <h3>Rajya Sabha</h3>
+                    <p>The Council of States. Members are elected by State Legislative Assemblies. It is a permanent body.</p>
+                </div>
+                <div class="step-card">
+                    <h3>State Assembly</h3>
+                    <p>Vidhan Sabha. Local state-level elections that decide the Chief Minister of your state.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Guide -->
+        <section id="registration">
+            <h2 class="section-title">Voter Registration Forms 📝</h2>
+            <div class="registration-grid">
+                <div class="step-card">
+                    <div class="step-number">6</div>
+                    <h3>New Voter</h3>
+                    <p>Form 6 is for new registration or shifting from one constituency to another.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">7</div>
+                    <h3>Objection</h3>
+                    <p>Form 7 is for objecting to a name in the electoral roll or requesting deletion.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">8</div>
+                    <h3>Correction</h3>
+                    <p>Form 8 is for correction of entries in the electoral roll (Address, Name, Photo, etc.).</p>
+                </div>
+            </div>
+            
+            <div style="background: white; padding: 2rem; border-radius: var(--radius); margin-top: 2rem; box-shadow: var(--shadow);">
+                <h3 style="color: var(--primary); margin-bottom: 1rem;">Quick Checklist ✔️</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.5rem;">🌸 Recent Passport Size Photo</li>
+                    <li style="margin-bottom: 0.5rem;">🌸 Proof of Age (Birth Cert, Aadhaar)</li>
+                    <li style="margin-bottom: 0.5rem;">🌸 Proof of Residence (Bill, Bank Passbook)</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Made with 💖 for Indian Voters</p>
+        <p style="font-size: 0.8rem; margin-top: 1rem; opacity: 0.8;">Data based on Election Commission of India (ECI) guidelines.</p>
+    </footer>
+
+    <!-- AI Chat Agent Widget -->
+    <div class="chat-widget">
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <span style="font-size: 1.5rem;">🤖</span>
+                <h3>Election Intelligence AI</h3>
+            </div>
+            <div class="chat-body" id="chat-body">
+                <div class="message ai">
+                    What can I help you?
+                </div>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" class="chat-input" id="chat-input" placeholder="Type your query...">
+                <button class="chat-send" id="chat-send">✨</button>
+            </div>
+        </div>
+        <div class="chat-button" id="chat-toggle">
+            💬
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
