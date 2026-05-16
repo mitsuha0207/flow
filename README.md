@@ -58,7 +58,7 @@ A chatbot-style UI component for future AI integration and user interaction.
 
 ⚙️ Installation & Setup
 Clone the repository:
-git clone https://github.com/your-username/indian-election-assistant.git
+git clone https://github.com/mitsuha0207/flow.git
 Navigate to the project folder:
 cd indian-election-assistant
 Open index.html in your browser.
